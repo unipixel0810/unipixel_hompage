@@ -104,6 +104,7 @@ typings/
 # gatsby files
 .cache/
 public
+!public/_redirects
 
 # vuepress build output
 .vuepress/dist
