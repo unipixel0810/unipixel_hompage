@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { ArrowDown, Loader2 } from 'lucide-react';
+import { useState } from 'react';
+import type { FC } from 'react';
+import { Loader2 } from 'lucide-react';
 
-export const SplineHero: React.FC = () => {
+export const SplineHero: FC = () => {
   const [loading, setLoading] = useState(true);
 
   return (
