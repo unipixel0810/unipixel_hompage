@@ -8,6 +8,24 @@ interface PortfolioGalleryProps {
 
 const portfolioItems = [
   {
+    id: 'FSowhdPcmxM',
+    title: '최신 프로젝트 1',
+    category: 'Latest / Premium',
+    year: '2024',
+  },
+  {
+    id: 'QD-XVgh-CQE',
+    title: '최신 프로젝트 2',
+    category: 'Latest / Premium',
+    year: '2024',
+  },
+  {
+    id: 'Vgr8PayLDR8',
+    title: '최신 프로젝트 3',
+    category: 'Latest / Premium',
+    year: '2024',
+  },
+  {
     id: 'V44wzZiHkgE',
     title: '기업 홍보영상 (30초)',
     category: 'Corporate / Branding',

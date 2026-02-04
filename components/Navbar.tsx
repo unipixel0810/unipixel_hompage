@@ -21,6 +21,14 @@ export const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    e.preventDefault();
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${scrolled ? 'py-3' : 'py-6'}`}>
       <div className={`mx-auto max-w-[1600px] px-6 md:px-12 flex items-center justify-between`}>
@@ -48,23 +56,23 @@ export const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
             ? 'bg-white/90 backdrop-blur-xl shadow-md border border-slate-200/50 text-slate-900' 
             : 'bg-white/70 backdrop-blur-lg border border-white/40 text-slate-900 shadow-sm'
         }`}>
-          <a href="#about" className="hover:text-indigo-600 transition-colors relative group">
+          <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="hover:text-indigo-600 transition-colors relative group cursor-pointer">
             회사소개
             <span className="absolute -bottom-1 left-1/2 w-0 h-[1.5px] bg-indigo-600 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
-          <a href="#process" className="hover:text-indigo-600 transition-colors relative group">
+          <a href="#process" onClick={(e) => scrollToSection(e, 'process')} className="hover:text-indigo-600 transition-colors relative group cursor-pointer">
             프로세스
             <span className="absolute -bottom-1 left-1/2 w-0 h-[1.5px] bg-indigo-600 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
-          <a href="#services" className="hover:text-indigo-600 transition-colors relative group">
+          <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="hover:text-indigo-600 transition-colors relative group cursor-pointer">
             서비스
             <span className="absolute -bottom-1 left-1/2 w-0 h-[1.5px] bg-indigo-600 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
-          <a href="#portfolio" className="hover:text-indigo-600 transition-colors relative group">
+          <a href="#portfolio" onClick={(e) => scrollToSection(e, 'portfolio')} className="hover:text-indigo-600 transition-colors relative group cursor-pointer">
             포트폴리오
             <span className="absolute -bottom-1 left-1/2 w-0 h-[1.5px] bg-indigo-600 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
-          <a href="#contact" className="hover:text-indigo-600 transition-colors relative group">
+          <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="hover:text-indigo-600 transition-colors relative group cursor-pointer">
             문의하기
             <span className="absolute -bottom-1 left-1/2 w-0 h-[1.5px] bg-indigo-600 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>

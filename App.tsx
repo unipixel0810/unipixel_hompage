@@ -96,13 +96,13 @@ export default function App() {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-20">
-                  {/* Portfolio Item 1: 2023 홍보영상 */}
-                  <a href="https://youtu.be/V44wzZiHkgE" target="_blank" rel="noopener noreferrer" className="group cursor-pointer block">
+                  {/* Portfolio Item 1: 최신 프로젝트 1 */}
+                  <a href="https://youtu.be/FSowhdPcmxM" target="_blank" rel="noopener noreferrer" className="group cursor-pointer block">
                      <div className="aspect-video bg-slate-900 rounded-[1.5rem] overflow-hidden relative mb-8 shadow-2xl ring-1 ring-white/10 group">
                         <img 
-                            src="https://img.youtube.com/vi/V44wzZiHkgE/maxresdefault.jpg" 
+                            src="https://img.youtube.com/vi/FSowhdPcmxM/maxresdefault.jpg" 
                             className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" 
-                            alt="2023 기업 홍보영상"
+                            alt="최신 프로젝트 1"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                         
@@ -114,20 +114,20 @@ export default function App() {
                      </div>
                      <div className="flex justify-between items-start">
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">기업 홍보영상 (30초)</h3>
-                            <p className="text-slate-400 font-light">Corporate / Branding / Commercial</p>
+                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">최신 프로젝트 1</h3>
+                            <p className="text-slate-400 font-light">Latest / Premium Production</p>
                         </div>
-                        <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2023</span>
+                        <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2024</span>
                      </div>
                   </a>
 
-                  {/* Portfolio Item 2: Audi 모터리언 */}
-                  <a href="https://youtu.be/i5ch5UJ2WIY" target="_blank" rel="noopener noreferrer" className="group cursor-pointer md:mt-20 block">
+                  {/* Portfolio Item 2: 최신 프로젝트 2 */}
+                  <a href="https://youtu.be/QD-XVgh-CQE" target="_blank" rel="noopener noreferrer" className="group cursor-pointer md:mt-20 block">
                      <div className="aspect-video bg-slate-900 rounded-[1.5rem] overflow-hidden relative mb-8 shadow-2xl ring-1 ring-white/10">
                         <img 
-                            src="https://img.youtube.com/vi/i5ch5UJ2WIY/maxresdefault.jpg" 
+                            src="https://img.youtube.com/vi/QD-XVgh-CQE/maxresdefault.jpg" 
                             className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" 
-                            alt="Audi 모터리언"
+                            alt="최신 프로젝트 2"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/30">
@@ -138,20 +138,20 @@ export default function App() {
                      </div>
                      <div className="flex justify-between items-start">
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">Audi 신차 리뷰 - 모터리언</h3>
-                            <p className="text-slate-400 font-light">Cinematic / Premium Review / Automotive</p>
+                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">최신 프로젝트 2</h3>
+                            <p className="text-slate-400 font-light">Latest / Premium Production</p>
                         </div>
-                        <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2022</span>
+                        <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2024</span>
                      </div>
                   </a>
                   
-                  {/* Portfolio Item 3: 안산 사이언스밸리 */}
-                  <a href="https://youtu.be/KqavbhvhJgg" target="_blank" rel="noopener noreferrer" className="group cursor-pointer block">
+                  {/* Portfolio Item 3: 최신 프로젝트 3 */}
+                  <a href="https://youtu.be/Vgr8PayLDR8" target="_blank" rel="noopener noreferrer" className="group cursor-pointer block">
                      <div className="aspect-video bg-slate-900 rounded-[1.5rem] overflow-hidden relative mb-8 shadow-2xl ring-1 ring-white/10">
                         <img 
-                            src="https://img.youtube.com/vi/KqavbhvhJgg/maxresdefault.jpg" 
+                            src="https://img.youtube.com/vi/Vgr8PayLDR8/maxresdefault.jpg" 
                             className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" 
-                            alt="안산 사이언스밸리"
+                            alt="최신 프로젝트 3"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/30">
@@ -162,20 +162,20 @@ export default function App() {
                      </div>
                      <div className="flex justify-between items-start">
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">안산 사이언스밸리</h3>
-                            <p className="text-slate-400 font-light">Motion Graphics / 3D Visualization / Exhibition</p>
+                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">최신 프로젝트 3</h3>
+                            <p className="text-slate-400 font-light">Latest / Premium Production</p>
                         </div>
-                        <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2023</span>
+                        <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2024</span>
                      </div>
                   </a>
 
-                  {/* Portfolio Item 4: 성화봉송 */}
-                  <a href="https://youtu.be/GC6TdoNmfXk" target="_blank" rel="noopener noreferrer" className="group cursor-pointer md:mt-20 block">
+                  {/* Portfolio Item 4: 기업 홍보영상 */}
+                  <a href="https://youtu.be/V44wzZiHkgE" target="_blank" rel="noopener noreferrer" className="group cursor-pointer md:mt-20 block">
                      <div className="aspect-video bg-slate-900 rounded-[1.5rem] overflow-hidden relative mb-8 shadow-2xl ring-1 ring-white/10">
                         <img 
-                            src="https://img.youtube.com/vi/GC6TdoNmfXk/maxresdefault.jpg" 
+                            src="https://img.youtube.com/vi/V44wzZiHkgE/maxresdefault.jpg" 
                             className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" 
-                            alt="성화봉송"
+                            alt="기업 홍보영상"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/30">
@@ -186,8 +186,8 @@ export default function App() {
                      </div>
                      <div className="flex justify-between items-start">
                         <div>
-                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">아태마스터스 성화봉송</h3>
-                            <p className="text-slate-400 font-light">Documentary / Event / Sports</p>
+                            <h3 className="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">기업 홍보영상 (30초)</h3>
+                            <p className="text-slate-400 font-light">Corporate / Branding / Commercial</p>
                         </div>
                         <span className="text-xs font-bold border border-white/20 px-3 py-1 rounded-full text-white/60">2023</span>
                      </div>
