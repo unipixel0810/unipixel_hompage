@@ -1,5 +1,37 @@
 # 유니픽셀 홈페이지 작업 로그
 
+## 2026-02-05 작업 내역
+
+### Open Graph 메타 태그 추가 (링크 미리보기)
+
+카카오톡/SNS에서 링크 공유 시 이미지와 설명이 표시되도록 설정:
+
+**추가된 파일:**
+- `public/og-image.png` - 링크 미리보기 이미지 (유니픽셀 로고)
+- `public/og-image.jpg` - 백업 이미지
+- `public/favicon.png` - 브라우저 탭 아이콘
+
+**index.html에 추가된 메타 태그:**
+```html
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Unipixel | 프리미엄 영상 제작 스튜디오" />
+<meta property="og:description" content="감각적인 영상으로 브랜드의 가치를 높이세요..." />
+<meta property="og:image" content="https://unipixel.co.kr/og-image.png" />
+<meta property="og:url" content="https://unipixel.co.kr" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://unipixel.co.kr/og-image.png" />
+```
+
+**카카오톡 캐시 초기화 방법:**
+1. https://developers.kakao.com/tool/debugger/sharing 접속
+2. `https://unipixel.co.kr` 입력
+3. "캐시 초기화" 버튼 클릭
+
+---
+
 ## 2026-02-04 작업 내역
 
 ### 1. 포트폴리오 섹션 업데이트
