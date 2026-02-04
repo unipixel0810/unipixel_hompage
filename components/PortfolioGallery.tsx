@@ -7,95 +7,106 @@ interface PortfolioGalleryProps {
 }
 
 const portfolioItems = [
+  // 최신 프로젝트 (2024)
   {
     id: 'FSowhdPcmxM',
-    title: '최신 프로젝트 1',
-    category: 'Latest / Premium',
+    title: '리어카를 탄 과일장수',
+    category: 'Documentary / Storytelling',
     year: '2024',
   },
   {
     id: 'QD-XVgh-CQE',
-    title: '최신 프로젝트 2',
-    category: 'Latest / Premium',
+    title: '도봉구 도깨비 축제',
+    category: 'Festival / Event',
     year: '2024',
   },
   {
     id: 'Vgr8PayLDR8',
-    title: '최신 프로젝트 3',
-    category: 'Latest / Premium',
+    title: '양주프라임공업사',
+    category: 'Corporate / Industry',
     year: '2024',
   },
+  // 브랜드 홍보
   {
-    id: 'V44wzZiHkgE',
-    title: '기업 홍보영상 (30초)',
-    category: 'Corporate / Branding',
+    id: 'SkuGYq8Jjhk',
+    title: '세계은행 JPO 홍보영상',
+    category: 'Government / Documentary',
     year: '2023',
   },
   {
-    id: 'KqavbhvhJgg',
+    id: 'Y2hK-2wX41I',
+    title: '대전 직업 박람회',
+    category: 'Education / Event',
+    year: '2023',
+  },
+  {
+    id: 'mplgpzNOWy8',
+    title: '새만금 노마드 페스티벌!',
+    category: 'Festival / Tourism',
+    year: '2023',
+  },
+  {
+    id: 'ggEv-t9uSoA',
+    title: '북촌우리음악 축제 공연',
+    category: 'Performance / Culture',
+    year: '2023',
+  },
+  // 제품 & 서비스 홍보
+  {
+    id: 'i5ch5UJ2WIY',
+    title: 'Audi 신차 리뷰',
+    category: 'Automotive / Review',
+    year: '2023',
+  },
+  {
+    id: 'V44wzZiHkgE',
+    title: '하루예술앱 티처 광고',
+    category: 'App / Commercial',
+    year: '2023',
+  },
+  // 인터뷰 및 행사
+  {
+    id: 'wO7VNYrabHU',
+    title: '전북 대회 아태마스터스',
+    category: 'Sports / Event / 4K Drone',
+    year: '2023',
+  },
+  {
+    id: 'Vy1yrLqdQFI',
     title: '안산 사이언스밸리',
-    category: 'Motion Graphics / Exhibition',
+    category: 'City / Motion Graphics',
     year: '2023',
   },
   {
     id: 'GC6TdoNmfXk',
-    title: '아태마스터스 성화봉송',
-    category: 'Documentary / Event',
+    title: '주민 협의체행사',
+    category: 'Documentary / Community',
     year: '2023',
   },
-  {
-    id: 'wO7VNYrabHU',
-    title: '13부작 다큐멘터리',
-    category: 'Documentary / 4K',
-    year: '2023',
-  },
-  {
-    id: 'i5ch5UJ2WIY',
-    title: 'Audi 신차 리뷰 - 모터리언',
-    category: 'Automotive / Cinematic',
-    year: '2022',
-  },
+  // 기업 & 전광판 홍보
   {
     id: 'j2HpCWtYf58',
-    title: '2D 모션그래픽 홍보영상',
-    category: '2D Composite / Animation',
+    title: '바이켐(주) 기업 홍보',
+    category: 'Corporate / 2D Graphics',
     year: '2022',
   },
   {
-    id: 'Vy1yrLqdQFI',
-    title: '기업 홍보영상',
-    category: 'Corporate / Promotion',
-    year: '2021',
+    id: 'Gj-0VfaqNcU',
+    title: '대동몰드 기업소개 영상',
+    category: 'Corporate / Manufacturing',
+    year: '2022',
   },
   {
-    id: 'Y2hK-2wX41I',
-    title: '존중문화도시 도봉',
-    category: 'Documentary / City Branding',
-    year: '2021',
+    id: 'Q398CeyRuDg',
+    title: '남북정상회담 5G 서비스',
+    category: 'Government / Technology',
+    year: '2022',
   },
   {
-    id: 'y5tDAGljzJo',
-    title: '2021 홍보영상',
-    category: 'Corporate / Branding',
-    year: '2021',
-  },
-  {
-    id: 'SkuGYq8Jjhk',
-    title: 'JPO 정기연주회',
-    category: 'Concert / Orchestra',
-    year: '2021',
-  },
-  {
-    id: 'ggEv-t9uSoA',
-    title: '솔로 퍼포먼스',
-    category: 'Performance / Music',
-    year: '2021',
-  },
-  {
-    id: 'mplgpzNOWy8',
-    title: '프로모션 영상',
-    category: 'Promotion / Commercial',
-    year: '2020',
+    id: 'pSAU9EgvRBo',
+    title: '입주기업사무실 소개영상',
+    category: 'Corporate / Real Estate',
+    year: '2022',
   },
 ];
 
@@ -103,7 +114,7 @@ export const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ isOpen, onCl
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/98 overflow-y-auto">
+    <div className="fixed inset-0 z-50 bg-slate-950 overflow-y-auto">
       {/* Header */}
       <div className="sticky top-0 z-10 bg-slate-950/90 backdrop-blur-xl border-b border-white/10">
         <div className="max-w-[1600px] mx-auto px-6 md:px-12 py-6 flex justify-between items-center">
@@ -121,7 +132,7 @@ export const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ isOpen, onCl
       </div>
 
       {/* Gallery Grid */}
-      <div className="max-w-[1600px] mx-auto px-6 md:px-12 py-12">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-12 py-12 bg-slate-950 min-h-screen">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {portfolioItems.map((item) => (
             <a
@@ -131,14 +142,14 @@ export const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ isOpen, onCl
               rel="noopener noreferrer"
               className="group block"
             >
-              <div className="aspect-video bg-slate-900 rounded-xl overflow-hidden relative shadow-lg ring-1 ring-white/10 mb-4">
+              <div className="aspect-video bg-slate-800 rounded-xl overflow-hidden relative shadow-lg ring-1 ring-white/10 mb-4">
                 <img
-                  src={`https://img.youtube.com/vi/${item.id}/maxresdefault.jpg`}
+                  src={`https://img.youtube.com/vi/${item.id}/hqdefault.jpg`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   alt={item.title}
                   onError={(e) => {
-                    // Fallback to hqdefault if maxresdefault is not available
-                    (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${item.id}/hqdefault.jpg`;
+                    // Fallback to mqdefault if hqdefault is not available
+                    (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${item.id}/mqdefault.jpg`;
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
@@ -171,7 +182,7 @@ export const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ isOpen, onCl
       </div>
 
       {/* Footer */}
-      <div className="border-t border-white/10 py-8">
+      <div className="border-t border-white/10 py-8 bg-slate-950">
         <div className="max-w-[1600px] mx-auto px-6 md:px-12 text-center">
           <p className="text-slate-400 text-sm">
             총 <span className="text-white font-bold">{portfolioItems.length}</span>개의 작품
