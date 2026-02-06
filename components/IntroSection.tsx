@@ -21,16 +21,16 @@ export const IntroSection: React.FC = () => {
             <span className="text-sm font-bold text-slate-700 tracking-tight">차별화된 <span className="text-blue-600">역기획</span> 전술 기반 프리미엄 비주얼 솔루션</span>
         </div>
 
-        {/* Main Headline */}
+        {/* Main Headline - SEO 최적화: 유튜브제작, 동영상제작 키워드 포함 */}
         <h2 className="text-5xl md:text-7xl font-bold text-slate-900 leading-[1.15] tracking-tight mb-10 break-keep">
-          비즈니스의 본질을<br/>
-          <span className="text-blue-600">시각적 가치</span>로 증명합니다
+          유튜브제작·동영상제작<br/>
+          <span className="text-blue-600">전문 파트너</span> 유니픽셀
         </h2>
 
-        {/* Description */}
+        {/* Description - SEO 최적화 */}
         <p className="text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto mb-16 font-medium break-keep">
-          유니픽셀은 단순 제작을 넘어 클라이언트의 비즈니스 목적과 시장 반응을 정밀하게 분석합니다.<br className="hidden md:block"/>
-          독자적인 <strong className="text-slate-900 underline decoration-blue-200 underline-offset-4">역기획 프로세스</strong>와 AI 기반 트렌드 분석을 통해 지속 가능한 비주얼 임팩트를 제안합니다.
+          고퀄리티 영상제작 및 유튜브 채널 매니지먼트 전문 유니픽셀입니다.<br className="hidden md:block"/>
+          기업 홍보, 광고, 유튜브 콘텐츠 기획부터 제작까지 <strong className="text-slate-900 underline decoration-blue-200 underline-offset-4">역기획 프로세스</strong>와 AI 기반 트렌드 분석으로 최적의 솔루션을 제공합니다.
         </p>
 
         {/* Buttons */}

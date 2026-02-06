@@ -22,11 +22,11 @@ export const SplineHero: FC = () => {
             </span>
           </div>
           
-          {/* Main Headline */}
+          {/* Main Headline - SEO 최적화: 영상제작, 유니픽셀 키워드 포함 */}
           <h1 className="text-4xl md:text-6xl lg:text-[5.5rem] font-bold text-slate-900 tracking-tighter leading-[1.05] mb-8 drop-shadow-sm text-center">
-            <span className="block text-slate-600 font-bold text-2xl md:text-4xl mb-4 tracking-tight">1초 뒤에 사라지는 영상이 아닌,</span>
+            <span className="block text-slate-600 font-bold text-2xl md:text-4xl mb-4 tracking-tight">1초 뒤에 사라지는 영상제작이 아닌,</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-700 pb-2 drop-shadow-sm">
-              뇌리에 박히는
+              뇌리에 박히는 영상
             </span>
           </h1>
           
