@@ -37,9 +37,9 @@ export const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
            <a href="/" onClick={scrollToTop} className="flex items-end gap-2 group">
               <div className="relative">
                 {/* Text Logo */}
-                <h1 className="font-display font-bold text-2xl md:text-3xl tracking-tighter text-slate-900 leading-none drop-shadow-sm">
+                <div className="font-display font-bold text-2xl md:text-3xl tracking-tighter text-slate-900 leading-none drop-shadow-sm">
                   Unipixel
-                </h1>
+                </div>
                 <span className="block font-medium text-[9px] tracking-[0.3em] text-slate-600 mt-1.5 text-right uppercase">
                   Video Studio
                 </span>
